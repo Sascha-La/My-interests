@@ -1,0 +1,8 @@
+.hobby {
+    width: calc((100% - 2*48px)/3);
+    max-width: 389px;
+    position: relative;
+    &:not(:last-child) {
+        margin-right: 48px;
+    }
+}
